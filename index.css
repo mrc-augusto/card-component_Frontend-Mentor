@@ -1,0 +1,153 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+:root{
+  --white: #fff;
+  --green: #2ab3b1;
+  --cyan: #50b1af;
+  --bright-yellow: #c0df34;
+  --light-gray: #d2e3ee;
+  --grayish-blue: #e7eef8;
+}
+
+body{
+  margin: 7.2rem 3.2rem;
+  font-family: 'Karla', sans-serif;
+  background: var(--grayish-blue);
+  box-shadow: 2px 3px 8px 5px rgba(0, 0, 0, 0.2);
+  
+}
+
+section{
+  padding: 2.8rem 2.4rem;
+
+}
+
+.hero{
+  background-color: var(--white);
+  border-radius: .5rem .5rem 0 0;
+
+}
+
+.hero h2{
+  color: var(--green);
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2.4rem;
+}
+
+.hero .highlight{
+  color: var(--bright-yellow);
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2rem;
+  margin-bottom: 1.6rem;
+}
+
+.hero p{
+  font-size: 1.4rem;
+  line-height: 2.6rem;
+}
+
+.price{
+  background: var(--green);
+}
+
+.price h2{
+  color: var(--white);
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 1.8rem;
+}
+
+.value{
+  color: var(--white);
+  font-size: 3.2rem;
+  font-weight: 700;
+  margin-bottom: .4rem;
+}
+
+span{
+  color: var(--light-gray);
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.price p{
+  color: var(--white);
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  margin-bottom: 2.6rem;
+}
+
+.price button{
+  background: var(--bright-yellow);
+  padding: 1.5rem 10rem;
+  border: none;
+  border-radius: .5rem;
+  box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.2);
+}
+
+.price button:hover{
+  background: #8ca327;
+}
+
+.price button a{
+  color: var(--white);
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.diferentials{
+  background: var(--cyan);
+}
+
+.diferentials h2{
+  color: var(--white);
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 1.8rem;
+}
+
+.diferentials p{
+  color: var(--light-gray);
+  font-size: 1.4rem;
+  line-height: 2rem;
+}
+
+/* media queries */
+
+@media (min-width: 1440px){
+  body{
+    margin: 16rem 40rem;
+  }
+
+  .hero{
+    padding: 4rem;
+  }
+
+  .box-bottom{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .price{
+    padding: 4rem;
+    width: 50vw;
+  }
+
+  .price button{
+    
+    padding: 1.5rem 8.9rem;
+  }
+
+  .diferentials{
+    padding: 4rem;
+    width: 50vw;
+  }
+}
